@@ -1,5 +1,5 @@
 class Customer
-    
+
     attr_accessor :name, :age
     @@all = []
     def initialize(name, age)
@@ -22,7 +22,7 @@ class Customer
     end
 
     def waiters
-        meals.map{|meal| meal.waiter} 
+        meals.map{|meal| meal.waiter}
     end
 
 end
